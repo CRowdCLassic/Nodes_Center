@@ -22,5 +22,5 @@ function get_seed($IP) {
   return $Seed;
 }
 
-$IP='i127.0.0.1';
+$IP='127.0.0.1';
 echo get_seed($IP)."\n";
